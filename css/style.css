@@ -25,6 +25,9 @@
   color: var(--main-text-color);
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-accent {
@@ -34,7 +37,7 @@
 .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   text-decoration: none;
@@ -47,8 +50,8 @@
 
 .contact-nav {
   font-weight: 500;
-  line-height: 1.15;
-  font-size: 1.15;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--descr-color);
   text-decoration: none;
@@ -85,7 +88,7 @@
 .qualities .title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -98,7 +101,7 @@
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.3;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -109,13 +112,13 @@
 .team .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
 }
 
 .team .team-position {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   color: var(--descr-color);
 }
@@ -124,7 +127,7 @@
 
 .footer .footer-address {
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.71;
   color: var(--primary-bg-color);
   font-family: "Roboto";
   font-style: normal;
@@ -133,7 +136,7 @@
 .footer .footer-info {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -153,13 +156,21 @@
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
   letter-spacing: 0.06em;
 }
 
 .button.secondary {
   background-color: var(--secondary-background-color);
   color: var(--main-text-color);
-  border: 0cm;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border: 0;
 }
 
 .button.secondary:hover,
@@ -172,4 +183,11 @@
 
 .porfolio-title {
   display: none;
+}
+
+.works .works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
